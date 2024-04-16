@@ -66,13 +66,13 @@ export default function TextForm(props) {
                 <div className="mb-3">
                     <textarea className="form-control" value={text} onChange={handaleOnChange} style={{ backgroundColor: props.mode === 'dark' ? 'black' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} id="myBox" rows="5" placeholder='Enter text here'></textarea>
                 </div>
-                <button className='btn btn-primary mx-1' onClick={handaleUpClick}>Convert to Uppercase</button>
-                <button className='btn btn-info mx-1' onClick={handaleLoClick}>Convert to Lowercase</button>
-                <button className='btn btn-secondary mx-1' onClick={handleTitleCase}>Convert to TitleCase</button>
-                <button className='btn btn-warning mx-1' onClick={handleExtraSpaces}>Remove Extra Spaces</button>
-                <button className='btn btn-dark mx-1' onClick={handleToSlug}>Convert to Slug</button>
-                <button className='btn btn-success mx-1' onClick={handaleCopy}>Copy Text</button>
-                <button className='btn btn-danger mx-1' onClick={handaleCleareClick}>Cleare</button>
+                <button className='btn btn-primary m-1' onClick={handaleUpClick}>Convert to Uppercase</button>
+                <button className='btn btn-info m-1' onClick={handaleLoClick}>Convert to Lowercase</button>
+                <button className='btn btn-secondary m-1' onClick={handleTitleCase}>Convert to TitleCase</button>
+                <button className='btn btn-warning m-1' onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+                <button className='btn btn-dark m-1' onClick={handleToSlug}>Convert to Slug</button>
+                <button className='btn btn-success m-1' onClick={handaleCopy}>Copy Text</button>
+                <button className='btn btn-danger m-1' onClick={handaleCleareClick}>Cleare</button>
             </div>
             <br />
             <hr style={{ color: props.mode === 'dark' ? 'white' : 'black' }} />
